@@ -1,0 +1,830 @@
+.navbar{
+    background: transparent;
+    backdrop-filter: blur(100%);
+    justify-content: space-between;
+    padding-top: 5%;
+}
+.navbar-nav{
+   margin-left: 60%;
+   font-weight: bold;
+   column-gap: 2%;
+
+} 
+.navbar-nav a{
+    color: white;
+    font-weight: bold;
+}
+.navbar-nav a:hover{
+    color: white;
+   
+}
+.navii{
+  
+    padding-top: 0.5%;
+}
+.navbar-header{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+   
+    
+
+}
+.navpic {
+    width: 55px;
+    height: 9vh;
+    animation: roll 3s ;
+    transform: rotate(30deg);
+    display: inline-block;
+    top: 0;
+
+}
+
+@keyframes roll {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
+.FRONTPAGE{
+    background-image: url(orange-juice-and-fresh-fruit-on-a-black-background-ai-generated-free-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#section1{
+    width: 100%;
+    height: 100vh;
+    
+}
+#section2{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+
+
+@media screen and  (max-width:480px){
+    .FRONTPAGE{
+        background-size: cover;
+    }
+   
+   
+} 
+.section-1-text{
+    padding-top: 10%;
+    margin-left: 2%;
+}
+.section-1-text h1 {
+    font-size: 80px;
+    color: white;
+}
+.section-1-text h2 {
+    font-size: 50px;
+    color: white;
+}
+.sec1btn{
+    width: 8%;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    margin-top: 1%;
+
+}
+.sec1btn:hover{
+    background-color: white;
+    color: orangered;
+}
+
+@media screen and  (max-width:480px){
+    .navbar-nav{
+       column-gap: normal;
+       margin-left: 80%;
+       
+    }
+
+}
+@media screen and  (max-width:480px){
+    .section-1-text{
+      display: none;
+       
+    }
+
+}
+@media screen and  (max-width:480px){
+    .navpic{
+      width: 40px;
+      height: 8vh;
+      margin-top: 1%;
+    }
+
+}
+
+
+/* 
+firstpage over */
+#section2{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and  (max-width:480px){
+    #section2{
+     display: inline;
+     justify-content: center;
+     align-items: center;
+   
+    }
+
+}
+
+.section2-01{
+   
+    width: 40%;
+    height: 80vh;
+    
+}
+@media screen and  (max-width:480px){
+    .section2-01{
+     width: 90%;
+     height: 80vh;
+     padding-top: 7%;
+     margin-left: 5%; 
+    }
+
+}
+
+
+.section2-02{
+   
+    width: 40%;
+    height: 80vh;
+    position: relative;
+
+}
+
+
+
+.section2-02::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background-image: url(desktop-wallpaper-about-summer-in-fruit-by-shan-on-pix-in-2020.jpg);
+    background-size: contain;
+   opacity: 0.1; 
+
+}
+@media screen and  (max-width:480px){
+    .section2-02{
+     width: 90%;
+     height: 80vh;
+     position: relative;
+     
+     
+    }
+}
+@media screen and  (max-width:480px){
+    .section2-02::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80vh;
+        background-image: url(desktop-wallpaper-about-summer-in-fruit-by-shan-on-pix-in-2020.jpg);
+        background-size: contain;
+        background-position: center;
+        opacity: 0.1; 
+        margin-left: 5%;
+      
+    }
+    .section2para{
+        padding-top: 15%;
+    }
+      
+}
+@media screen and  (max-width:480px){
+    .typebtn{
+       display: none;
+        
+    }
+}
+
+
+.typebtn {
+    width: 20%;
+    height: 6vh;
+    border: none;
+    background-color:#008000;
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    
+    
+}
+.mobilebutton{
+    width: 20%;
+    height: 6vh;
+    border: none;
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    
+}
+
+@media screen and  (min-width:480px){
+    .mobilebutton{
+        display: none;
+        
+    }
+    
+}
+@media screen and  (max-width:480px){
+    .mobilebutton{
+    width: 32%;
+    height: 6vh;
+    border: none;
+    background-color:#008000;
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    }
+    .mobilebutton:hover{
+        border: 1px dotted #008000;
+        background-color: white;
+        color: #008000;
+    }
+    
+}
+
+
+
+
+
+.typebtn:hover{
+    border: 1px dotted #008000;
+    background-color: white;
+    color: #008000;
+}
+.section2para{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.section2para h1{
+   color: #008000;
+}
+.section2para p{
+    font-weight: 600;
+    text-align: justify;
+    margin-right: 5%;
+    margin-top: 5%;
+ }
+
+.secondpage{
+    width: 100%;
+    height: 80vh;
+    
+}
+
+/* SECOND PAGE OVER */
+
+
+
+
+
+
+
+/* thirdPAGE start */
+
+#section3{
+    width: 100%;
+    height: auto;
+}
+.sec3 {
+   
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    
+}
+.sec3 h1{
+    padding-left: 40%;
+    padding-top: 1%;
+}
+/* .sec-cards{
+    width: 25%;
+    height: 50%;
+} */
+.card{
+    width: 23%;
+    height: 20vh;
+    
+
+}
+
+.sec3card{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    column-gap: 1%;
+    row-gap: 20px;
+    
+  }
+.filter-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+  
+}
+.filter-buttons-btn{
+    width: 9%;
+    border: 3px solid green;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.filter-buttons-btn:hover{
+  background-color: green;
+  color: white;
+  
+}
+
+  @media screen and  (max-width:480px){
+    .sec3card{
+    display: flex;
+    margin-top: 5%;
+    }
+    .sec-cards{
+        width: 95%;
+        
+    }
+    .sec3 {
+        border: none;
+    
+    }
+    .sec3 h1{
+        padding-left: 25%;
+        padding-top: 1%;
+    }
+    .filter-buttons-btn{
+        width: auto;
+        border: 3px solid green;
+        background-color: white;
+        color: green;
+        overflow: hidden;
+       
+    }
+    .filter-buttons{
+       
+        font-size: 12px;
+      
+    }
+ 
+
+}
+
+
+  .card img{
+    width: 100%;
+    height: 50vh;
+    transition: 0.2s;
+  }
+  .card.hide{
+    display: none;
+  }
+  .btncards-sec3{
+
+    width: 100%;
+    height: 9vh;
+    border: none;
+    background-color: #FF7F50;
+    font-weight: bold;
+    color: whitesmoke;
+
+
+
+
+  }
+  /* thirdPAGE over */
+  
+
+
+
+
+
+
+/* fourthPAGE start */
+
+#section4{
+    width: 100%;
+    height: 100vh;
+   
+}
+.swiper-container {
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    
+    
+   
+}
+.swiper-container h1{
+    margin-left: 40%;
+    font-size: 60px;
+    
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 18px;
+    width: auto;
+    
+    
+}
+.swiper-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(water-removebg-preview.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+
+
+}
+.card1{
+    width: 70%;
+    height: 59vh;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 5px solid red;
+    margin-top: 20%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position: absolute;
+  
+   
+   
+  
+}
+ .card1 i{
+    font-size: 300%;
+    margin-top: 15%;
+    margin-left: 40%;
+    position: absolute;
+   
+  
+}
+.card1 p{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 40%;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 2%;
+    text-align: justify;
+    font-weight: bold;
+   
+   
+  
+} 
+
+@media screen and  (max-width:480px){
+    .card1 {
+      width: 75%;
+      height: 68%;
+      margin-left: 13%;
+      margin-right: 10%;
+      position: absolute;
+      margin-top: 10%;
+    }
+    .swiper-container h1{
+        margin-top: 5%;
+        margin-left: 24%;
+        font-size: 40px;
+    }
+    
+}
+    
+   
+/* fourthPAGE over */
+
+
+
+
+
+
+/* five PAGE start */
+.sub-box{
+  
+    background-color: #eee;
+    display: flex;
+
+
+}
+.sub-box-1{
+width: 50%;
+height: 30vh;
+display: flex;
+  align-items: center;
+
+}
+
+.sub-box-1 img{
+
+  width: 18%;
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+
+
+}
+.sub-box-1 p{
+
+   font-size: 20px;
+   margin-left: 3%;
+  }
+  
+
+.sub-box-2{
+
+    width: 50%;
+    height: 30vh;
+    margin-left: 10%;
+ 
+    
+    
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+} 
+
+.form-box{
+    width: 125%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-top: 23%;
+    /* margin-left: 20%; */
+}
+
+.form-box input{
+
+   
+    font-size: 18px;
+    color: black;
+    padding: 0px 5px; 
+    border: none;
+    outline: none;
+    background: white;
+}
+.form-box button{
+    
+    color: white;
+    margin-left: 20%;
+    padding: 5px 5px;
+    font-size: 18px ;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    cursor: pointer;
+    transition: .3s;
+
+}
+#msg{
+    margin-top: 5%;
+    padding-top: 30%;
+    padding-left: 30%;
+    font-weight: bold;
+
+}
+@media screen and  (max-width:480px){
+    .sub-box{
+  
+        background-color: #eee;
+        display: inline;
+    
+    }
+    .sub-box-1 img{
+
+        width: 30%;
+        display: flex;
+        align-items: center;
+        margin-left: 10%;
+      
+      
+      }
+      .sub-box-1{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        background-color: #eee;
+        
+    }
+    .sub-box-2{
+
+        width: 100%;
+        height: 30vh;
+        margin-left: 0%;
+        padding-left: 2%;
+        background-color: #eee;
+        
+    }
+    .form-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .form-box button{
+        
+        margin-left: 0%;
+        
+    }
+    #msg{
+       
+        padding-left: 20%;
+        font-weight: bold;
+    
+    }
+    
+    
+}
+/* five PAGE over */
+  
+
+
+
+/* section-6 PAGE start */
+.section-6{
+
+width: 100%;
+height: 70vh;
+background-color: #1c1c1c;
+}
+.section-6-boxs1{
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 5%;
+}
+.section-6-box-1{
+    width: 30%;
+    height: 40vh;
+    color: #bdbdbd;
+    padding-left: 5%;
+
+   
+}
+.section-6-box-1 hr{
+    color: white;
+    font-weight: bold;
+    width: 45%;
+
+    margin-top: 5%;
+}
+
+.section-6-boxs2{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.section-6-boxs2-1{
+    width: 30%;
+    height: 15vh;
+    
+    color: #bdbdbd;
+    padding-left: 5%;
+    
+    
+}
+.section-6-boxs2-1 h3{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+.section-6-boxs2-1-mailus{
+    display: flex;
+    font-size: 40px;
+    
+}
+.section-6-boxs2-1-mailus i{
+    
+    font-size: 40px;
+    
+}
+.sec-6-icons{
+    padding-top: 5%;
+    font-size: 30px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width:480px){
+    
+    .section-6{
+
+        width: 100%;
+        height: auto;
+        background-color: #1c1c1c;
+        }
+    .section-6-boxs1{
+        display: inline;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    }
+    .section-6-box-1{
+        width: 100%;
+        height: 40vh;
+        color: #bdbdbd;
+        padding-left: 10%;
+    
+       
+    }
+    .section-6-boxs2{
+        display: inline;
+
+    }
+    .section-6-boxs2-1{
+        width: 100%;
+        height: 20vh;
+        color: #bdbdbd;
+        padding-left: 10%;
+    }
+    
+}
+
+
+/* section-6 PAGE over */
+
+
+.foot {
+    background-color: #bdbdbd;
+    backdrop-filter: blur(100px);
+    padding-left: 30%;
+    color: #1c1c1c;
+    font-weight: bold;
+}
+
+@media screen and  (max-width:480px){
+    
+
+    .foot {
+        background-color: #bdbdbd;
+        backdrop-filter: blur(100px);
+        padding-left: 8%;
+        color: #1c1c1c;
+        font-weight: bold;
+        font-size: 8px;
+        
+    }
+    
+   
+    
+}
+
